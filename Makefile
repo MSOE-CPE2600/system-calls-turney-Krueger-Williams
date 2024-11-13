@@ -10,7 +10,7 @@ pinfo: pinfo.o
 	$(CC) -o pinfo pinfo.o
 
 finfo: finfo.o
-	$(CC) -o finfo finfo.o
+	$(CC) -o finfo finfo.o finfo_helper.c
 
 pmod: pmod.o
 	$(CC) -o pmod pmod.o
